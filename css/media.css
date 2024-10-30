@@ -28,6 +28,10 @@
     font-size: 16px;
     line-height: 100%;
     color: #4d4d4d;
+    &:active{
+      color: white;
+    background-color: #ffc711;
+    }
   }
   .nav {
     position: fixed;
@@ -67,6 +71,9 @@
     flex-direction: column;
     align-items: center;
     gap: 65px;
+  }
+  .nav__link:active{
+    color: #ffc711;
   }
 
   .nav__item {
@@ -109,6 +116,19 @@
   .project__description {
     font-size: 22px;
     width: 365px;
+  }
+  .projects__arrow:active{
+    background-color: #59b6e1;
+  }
+  .project-card__button:active {
+    background-color: #59b6e1;
+  }
+  .project-card__info:active{
+    background: rgba(0, 0, 0, 0.4);
+  }
+  .hero-select__button:active{
+    color: #fff;
+    background-color: #59b6e1;
   }
 
   .footer__more {

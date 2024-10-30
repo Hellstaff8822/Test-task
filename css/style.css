@@ -188,10 +188,11 @@
   justify-content: space-between;
   align-items: center;
   transition: var(--transition);
+  &:hover {
+    background: rgba(0, 0, 0, 0.4);
+  }
 }
-.project-card__info:hover {
-  background: rgba(0, 0, 0, 0.4);
-}
+
 
 .project-card__name {
   display: flex;
@@ -218,7 +219,6 @@
   justify-content: center;
   transition: var(--transition);
   &:hover {
-    background-color: #59b6e1;
     border-radius: 50%;
   }
 }
