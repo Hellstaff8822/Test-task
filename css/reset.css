@@ -10,6 +10,7 @@ html {
   --font-family: Gilroy, sans-serif;
   --second-family: "Inner", sans-serif;
   line-height: 1.15;
+  --transition: all 0.2s ease-in-out;
   -webkit-text-size-adjust: 100%;
 }
 body {
@@ -35,7 +36,7 @@ html,body{
 
 .background-container {
   background-image: url("/image/backgrounds/main.png");
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   background-repeat: no-repeat;
   width: 100%;

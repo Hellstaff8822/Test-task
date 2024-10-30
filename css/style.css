@@ -29,6 +29,7 @@
 }
 
 .nav__link {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -37,6 +38,10 @@
   line-height: 100%;
   text-align: center;
   color: #fff;
+  transition: var(--transition);
+  &:hover {
+    color: #ffc711;
+  }
 }
 .language-button {
   background-color: white;
@@ -46,6 +51,11 @@
   font-size: 16px;
   line-height: 100%;
   color: #4d4d4d;
+  transition: var(--transition);
+  &:hover {
+    color: white;
+    background-color: #ffc711;
+  }
 }
 .hero {
   display: flex;
@@ -54,11 +64,6 @@
   margin-bottom: 50px;
   animation: fadeInUp 1.5s ease-in forwards;
   margin-bottom: 110px;
-}
-@media (max-width: 992px) {
-  .hero {
-    animation: none;
-  }
 }
 
 .background-container::before {
@@ -113,6 +118,11 @@
   padding: 18px 62px;
   background-color: #ffc711;
   border-radius: 24px;
+  transition: var(--transition);
+  &:hover {
+    color: #fff;
+    background-color: #59b6e1;
+  }
 }
 
 @keyframes fadeInUp {
@@ -177,7 +187,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.2s ease-in;
+  transition: var(--transition);
 }
 .project-card__info:hover {
   background: rgba(0, 0, 0, 0.4);
@@ -206,6 +216,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: var(--transition);
+  &:hover {
+    background-color: #59b6e1;
+    border-radius: 50%;
+  }
 }
 
 .arrow-path {
@@ -230,7 +245,7 @@
   cursor: pointer;
   border-radius: 50%;
   padding: 12px;
-  transition: all 0.2s ease-in;
+  transition: var(--transition);
 }
 
 .projects__arrow:hover {
