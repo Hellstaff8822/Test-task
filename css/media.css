@@ -1,0 +1,139 @@
+@media (max-width: 992px) {
+  .background-container {
+    justify-content: center;
+  }
+  .background-container::before {
+    display: none;
+  }
+  .header {
+    animation: none;
+  }
+  .nav-logo-media {
+    display: block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+  }
+  .language-button-media {
+    position: absolute;
+    top: 38px;
+    right: 100px;
+    display: block;
+    background-color: white;
+    border-radius: 50%;
+    padding: 12px 10px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    color: #4d4d4d;
+  }
+  .nav {
+    position: fixed;
+    top: 0;
+    left: 108%;
+    width: 80%;
+    height: 100vh;
+    z-index: 999;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: rgba(89, 182, 225);
+    transform: translateX(0);
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .nav__logo {
+    display: none;
+  }
+  .language-button {
+    display: none;
+  }
+
+  .nav.active {
+    transform: translateX(-100%);
+  }
+
+  .icon-menu {
+    display: block;
+  }
+
+  .nav__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 65px;
+  }
+
+  .nav__item {
+    margin: 0;
+  }
+
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .hero__text {
+    font-size: 12px;
+  }
+  .hero__title {
+    font-size: 60px;
+  }
+  .hero-select {
+    text-align: center;
+  }
+  .hero-select__title {
+    font-size: 24px;
+  }
+  .projects {
+    padding: 0 30px;
+  }
+  .projects__title {
+    font-size: 42px;
+  }
+  .projects__container {
+    flex-direction: column;
+  }
+  .project-card {
+    width: 365px;
+  }
+  .projects__navigation {
+    justify-content: space-between;
+  }
+  .project__description {
+    font-size: 22px;
+    width: 365px;
+  }
+
+  .footer__more {
+    font-size: 42px;
+  }
+  .dropdown {
+    position: relative;
+    top: 0;
+    left: -6px;
+    background: none;
+    box-shadow: none;
+    width: 90px;
+    padding: 0;
+  }
+  .nav__item:hover .dropdown {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .dropdown li {
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
+    align-items: center;
+  }
+  .dropdown li a {
+    font-size: 16px;
+  }
+}

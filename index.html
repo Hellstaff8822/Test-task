@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Test task</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet" />
+  <link rel="shortcut icon" href="/image/logo.png" type="image/x-icon" />
+  <link rel="stylesheet" href="/css/reset.css" />
+  <link rel="stylesheet" href="/css/style.css" />
+  <link rel="stylesheet" href="/css/stylesheet.css" />
+  <link rel="stylesheet" href="/css/media.css" />
+</head>
+
+<body>
+  <div class="background-container">
+    <header class="header">
+      <a href="#" class="nav-logo-media">
+        <img src="/image/logo.png" alt="logo" />
+      </a>
+      <nav class="nav" id="navList">
+        <a href="#" class="nav__logo">
+          <img src="/image/logo.png" alt="logo" />
+        </a>
+        <ul class="nav__list" id="navList">
+          <li class="nav__item">
+            <a href="#" class="nav__link">Projects<span class="material-symbols-outlined icon-arrow">
+                keyboard_arrow_down
+              </span></a>
+            <ul class="dropdown">
+              <li><a href="#">Villa</a></li>
+              <li><a href="#">Apartments</a></li>
+              <li><a href="#">Townhouses</a></li>
+            </ul>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">About company</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Cooperation</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Contact us</a>
+          </li>
+        </ul>
+        <button class="language-button">EN</button>
+      </nav>
+      <span class="material-icons icon-menu" onclick="toggleMenu()">menu</span>
+      <button class="language-button-media">EN</button>
+    </header>
+
+    <section class="hero">
+      <div class="hero__info">
+        <p class="hero__text">
+          Lorem Ipsum is simply dummy text of the printing
+        </p>
+        <h1 class="hero__title">Company <br />Name</h1>
+      </div>
+      <div class="hero-select">
+        <h2 class="hero-select__title">
+          <br />Lorem Ipsum is<br />
+          simply dummy text of the <br />printing
+          <span>and typesetting</span> <br />
+          industry.
+        </h2>
+        <button class="hero-select__button">Select property</button>
+      </div>
+    </section>
+  </div>
+
+  <section class="projects">
+    <h2 class="projects__title">Our projects</h2>
+    <div class="projects__container">
+      <div class="project-card">
+        <div class="projects__img">
+          <img src="/image/slider/first.png" alt="Project 1" class="project-card__image" />
+        </div>
+        <div class="project-card__info">
+          <p class="project-card__name"><span>Villa</span>Lorem Ipsum</p>
+          <button class="project-card__button">
+            <svg width="25" height="25">
+              <use href="icon.svg#arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/image/slider/second.png" alt="Project 2" class="project-card__image" />
+        <div class="project-card__info">
+          <p class="project-card__name"><span>Villa</span>Lorem Ipsum</p>
+          <button class="project-card__button">
+            <svg width="25" height="25">
+              <use href="icon.svg#arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <img src="/image/slider/three.png" alt="Project 3" class="project-card__image" />
+        <div class="project-card__info">
+          <p class="project-card__name"><span>Apartments</span>Lorem Ipsum</p>
+          <button class="project-card__button">
+            <svg width="25" height="25">
+              <use href="icon.svg#arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+      <div class="project-card">
+        <img src="/image/slider/four.png" alt="Project 4" class="project-card__image" />
+        <div class="project-card__info">
+          <p class="project-card__name"><span>Townhouses</span>Lorem Ipsum</p>
+          <button class="project-card__button">
+            <svg width="25" height="25">
+              <use href="icon.svg#arrow-right"></use>
+            </svg>
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects__navigation">
+      <button class="projects__arrow projects__arrow--left">
+        <svg width="25" height="25">
+          <use href="icon.svg#arrow-left"></use>
+        </svg>
+      </button>
+      <button class="projects__arrow projects__arrow--right">
+        <svg width="25" height="25">
+          <use href="icon.svg#arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+    <div class="projects__info">
+      <div class="project__description">
+        <span>Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry.</span>
+        Lorem Ipsum has been the industry's standard dummy text ever since the
+        1500s, when an unknown printer took a galley of type and scrambled it
+        to make a type specimen book. It has survived not only five centuries,
+        but also the leap into electronic typesetting, remaining.
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer__more">More than 10 years</div>
+    <img src="/image/backgrounds/footer.png" alt="Footer" />
+  </footer>
+
+  <script src="index.js"></script>
+</body>
+
+</html>

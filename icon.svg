@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" fill ="none" width="25" height="25">
+  <symbol id="arrow-right" viewBox="0 0 25 25">
+    <path class="arrow-path" d="M0 13.7812H18.6813L10.1063 22.3562L12.25 24.5L24.5 12.25L12.25 0L10.1062 2.14375L18.6813 10.7187H0V13.7812Z"/>
+  </symbol>
+  <symbol id="arrow-left" viewBox="0 0 25 25">
+    <path d="M25 14.2812H6.31875L14.8937 22.8562L12.75 25L0.5 12.75L12.75 0.5L14.8938 2.64375L6.31875 11.2187H25V14.2812Z" />
+  </symbol>
+</svg>
