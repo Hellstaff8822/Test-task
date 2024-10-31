@@ -6,6 +6,8 @@
   .background-container::before {
     display: none;
   }
+
+  
   .header {
     animation: none;
   }
@@ -137,7 +139,7 @@
   .dropdown {
     position: relative;
     top: 0;
-    left: -6px;
+    left: -9px;
     background: none;
     box-shadow: none;
     width: 90px;
@@ -146,7 +148,7 @@
   .nav__item:hover .dropdown {
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 12px;
   }
   .dropdown li {
     display: flex;
