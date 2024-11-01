@@ -2,6 +2,7 @@
   .background-container {
     justify-content: center;
     background-size: cover;
+    height: 82vh;
   }
   .background-container::before {
     display: none;
