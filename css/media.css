@@ -7,7 +7,6 @@
     display: none;
   }
 
-  
   .header {
     animation: none;
   }
@@ -30,9 +29,9 @@
     font-size: 16px;
     line-height: 100%;
     color: #4d4d4d;
-    &:active{
+    &:active {
       color: white;
-    background-color: #ffc711;
+      background-color: #ffc711;
     }
   }
   .nav {
@@ -74,7 +73,7 @@
     align-items: center;
     gap: 65px;
   }
-  .nav__link:active{
+  .nav__link:active {
     color: #ffc711;
   }
 
@@ -86,19 +85,20 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
   }
 
   .hero__text {
     font-size: 12px;
   }
   .hero__title {
-    font-size: 60px;
+    font-size: 50px;
   }
   .hero-select {
     text-align: center;
   }
   .hero-select__title {
-    font-size: 24px;
+    font-size: 18px;
   }
   .projects {
     padding: 0 30px;
@@ -108,6 +108,8 @@
   }
   .projects__container {
     flex-direction: column;
+    align-items: center;
+    margin: 0;
   }
   .project-card {
     width: 365px;
@@ -116,25 +118,35 @@
     justify-content: space-between;
   }
   .project__description {
-    font-size: 22px;
-    width: 365px;
+    font-size: 16px;
+    width: 300px;
   }
-  .projects__arrow:active{
+  .projects__arrow:active {
     background-color: #59b6e1;
   }
   .project-card__button:active {
     background-color: #59b6e1;
   }
-  .project-card__info:active{
+  .project-card__info {
+    right: 26px;
+    left: 30px;
+  }
+  .project-card__image {
+    width: 80%;
+  }
+  .project-card__name {
+    font-size: 20px;
+  }
+  .project-card__info:active {
     background: rgba(0, 0, 0, 0.4);
   }
-  .hero-select__button:active{
+  .hero-select__button:active {
     color: #fff;
     background-color: #59b6e1;
   }
 
   .footer__more {
-    font-size: 42px;
+    font-size: 32px;
   }
   .dropdown {
     position: relative;
